@@ -12,7 +12,6 @@ set(CJSON_VERSION_SO 1)
 set(CJSON_UTILS_VERSION_SO 1)
 set(PROJECT_VERSION "${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_VERSION_PATCH}")
 
-
 set(custom_compiler_flags)
 
 include(CheckCCompilerFlag)
@@ -264,5 +263,5 @@ if(ENABLE_LOCALES)
 	add_definitions(-DENABLE_LOCALES)
 endif()
 
-add_subdirectory(tests)
+# add_subdirectory(tests)
 add_subdirectory(fuzzing)

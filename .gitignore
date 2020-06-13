@@ -1,18 +1,59 @@
-.svn
-test
-*.o
-*.a
-*.so
-*.swp
-*.patch
-tags
-*.dylib
-build/
-cJSON_test
-cJSON_test_utils
-libcjson.so.*
-libcjson_utils.so.*
-*.orig
+## my project
+
+## generic
+._*
+
+## sqlite
+*.database
+
+## c++
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles
+*.app
+release
+mingw_release
+build
+mingw_build
+mingw_build_debug
+*.[oa]
+
+#node.js
+node_modules
+bin
+
+#build files
+*.out
+
+#visual studio
 .vscode
-.idea
-cmake-build-debug
+
+# xcode
+xcode
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+
+# codeblocks
+gmon.out
+
+### - mac - ###
+.DS_Store
+
+
+# repositories
+.hg
+.svn
+CVS
+
+# automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
